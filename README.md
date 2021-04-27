@@ -12,13 +12,13 @@ pip install -r requirements.txt
 
 Please look at `settings.py` for the current tasks and models.
 
-### Create `dev-r` 
+#### Create `dev-r` 
 `CUDA_VISIBLE_DEVICES=0 python create_dev_r.py`
 
-### Create `dev-s` 
+#### Create `dev-s` 
 `CUDA_VISIBLE_DEVICES=0 python create_dev_s.py`
 
-### Compute word-order-sensitivity scores
+#### Compute word-order-sensitivity scores
 `CUDA_VISIBLE_DEVICES=0 python compute_average_scores.py`
 
 
